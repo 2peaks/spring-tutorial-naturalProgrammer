@@ -1,0 +1,11 @@
+form .error {
+	color: #A94442;
+}
+
+/*id ends with "errors"
+[id^=errors] means id starts with "errors"
+*/
+span[id$=errors] { 
+	color: #A94442;
+	font-weight: bold;
+}
